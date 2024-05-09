@@ -1,0 +1,32 @@
+/* Add this CSS to your existing styles */
+
+
+/* Hover effect for sections */
+
+.section-frame:hover {
+    /* Add your hover styles here */
+    /* For example, change the background color */
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Hover effect for the image sections */
+
+.p-3.mb-2.bg-white.rounded:hover {
+    /* Add your hover styles here */
+    /* For example, change the box shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+
+/* Hover effect for buttons */
+
+.rounded-pill.border-primary.text-primary:hover {
+    /* Add your hover styles here */
+    /* For example, change the background color and text color */
+    background-color: #0066cc;
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
